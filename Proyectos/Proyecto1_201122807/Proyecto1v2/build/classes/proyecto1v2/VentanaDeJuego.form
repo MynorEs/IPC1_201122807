@@ -54,6 +54,7 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="atacar" min="-2" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
@@ -94,31 +95,32 @@
           <Group type="102" attributes="0">
               <EmptySpace min="32" pref="32" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Component id="cuadricula" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lbletiquetanombre1" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="lblnombrejugador1" alignment="3" max="-2" attributes="0"/>
                           <Component id="lbletiquetapersonajes1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="fondovidas1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                               <Component id="lblturno1jug1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="lblturno2jug1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="lblturno3jug1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="fondovidas1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -136,27 +138,18 @@
                               <Component id="lblturno3jug2" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="fondovidas2" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-                                  <Group type="102" attributes="0">
-                                      <Component id="btntirar" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="lbldado" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="btntirar" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbldado" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="atacar" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -280,30 +273,310 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="197" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblv11j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv12j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv13j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv14j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv15j1" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblv16j1" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="lblv10j3" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv17j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv18j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv19j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv20j1" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblv1j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv2j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv3j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv4j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv5j1" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblv6j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv7j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv8j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv9j1" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv10j1" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="145" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblv1j1" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv2j1" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv3j1" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv4j1" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv5j1" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblv6j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv7j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv8j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv9j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv10j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblv11j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv12j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv13j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv14j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv15j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblv16j1" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace pref="28" max="32767" attributes="0"/>
+                          <Component id="lblv10j3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblv17j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblv18j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblv19j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblv20j1" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
           </Group>
         </DimensionLayout>
       </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblv1j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv2j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv3j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv4j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv5j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv6j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv7j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv8j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv9j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv10j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv11j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv12j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv13j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv14j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv15j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv16j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv17j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv18j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv19j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv20j1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv10j3">
+        </Component>
+      </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="fondovidas2">
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="197" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblv11j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv12j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv13j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv14j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv15j2" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblv16j2" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="lblv10j4" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv17j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv18j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv19j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv20j2" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblv1j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv2j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv3j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv4j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv5j2" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblv6j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv7j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv8j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv9j2" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblv10j2" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="33" max="32767" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="156" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblv1j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv2j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv3j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv4j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv5j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblv6j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv7j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv8j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv9j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv10j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblv11j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv12j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv13j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv14j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblv15j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblv16j2" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="lblv10j4" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblv17j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblv18j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblv19j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblv20j2" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
           </Group>
         </DimensionLayout>
       </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblv1j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv18j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv19j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv5j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv4j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv20j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv3j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv6j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv15j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv2j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv17j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv10j4">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv14j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv12j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv10j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv11j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv9j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv16j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv7j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv8j2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblv13j2">
+        </Component>
+      </SubComponents>
     </Container>
     <Component class="javax.swing.JSeparator" name="jSeparator1">
     </Component>
@@ -351,7 +624,7 @@
                       <Component id="btnderecha" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
                       <Component id="btnizquierda" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="17" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="btnabajo" min="-2" pref="19" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -392,5 +665,13 @@
         </Component>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JButton" name="atacar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atacar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="atacarActionPerformed"/>
+      </Events>
+    </Component>
   </SubComponents>
 </Form>

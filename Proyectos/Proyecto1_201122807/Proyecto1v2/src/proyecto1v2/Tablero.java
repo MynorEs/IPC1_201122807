@@ -87,6 +87,7 @@ public class Tablero {
                         
                 matriz[posrandomxjug1][posrandomyjug1] = 1;
                 personaje1 = 1;
+                vida1 = 5;
             
             }
             
@@ -104,6 +105,7 @@ public class Tablero {
                 
                 matriz[posrandomxjug2][posrandomyjug2] = 2;
                 personaje2 = 2;
+                vida2 = 5;
                 
             }
             
@@ -176,7 +178,7 @@ public class Tablero {
                     cuadricula.add(matrizlabel[i][j], BorderLayout.CENTER);
                     cuadricula.repaint();
                     
-                } else if(matriz[i][j]==1){//CELDA CON MAGO
+                } else if(matriz[i][j]==1){//CELDA CON PRINCESA
                     
                     JLabel tablero;
                     tablero = new JLabel(princesa);
@@ -206,6 +208,18 @@ public class Tablero {
         
     }
     
+    public void bajarVida2(){
+        
+        vida2 = vida2 - 1;
+        
+    }
+    
+    public int dameVida2(){
+        
+        return vida2;
+        
+    }
+    
     public int tamano;//USADA
     public JPanel cuadricula;//USADO
     public int posjugador;//PENDIENTE
@@ -222,5 +236,7 @@ public class Tablero {
     public int posrandomyjug1;
     public int posrandomxjug2;
     public int posrandomyjug2;
+    public int vida1;
+    public int vida2;
     
 }

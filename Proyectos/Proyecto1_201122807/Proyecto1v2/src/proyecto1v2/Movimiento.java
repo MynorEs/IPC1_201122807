@@ -14,7 +14,7 @@ import java.util.logging.Logger;
  */
 public class Movimiento extends Thread {
     
-    public Movimiento(int cantidad, Tablero tablero, String direccion){
+    public Movimiento(int cantidad, Tablero tablero, int direccion){
         
         this.cantidad = cantidad;
         this.tablero = tablero;
@@ -24,8 +24,11 @@ public class Movimiento extends Thread {
     
     public void mover(int cantidad){
         
-        
-        if(direccion.equalsIgnoreCase("derecha")){//CODIGO HACIA DERECHA
+        switch(direccion){
+            
+            case 2:
+                
+                if(direccion==2){//CODIGO HACIA DERECHA
             
             try {
             if(cantidad<=0){
@@ -34,12 +37,13 @@ public class Movimiento extends Thread {
             if(comprobarDerecha()){
                 //regresar el jugador a la posicion 0
                 cantidad=0;
-                tablero.matriz[tablero.posrandomxjug1][tablero.posrandomyjug1] = 0;//tab.vec[tab.tam-1]=0;
-                tablero.matrizlabel[tablero.posrandomxjug1][tablero.posrandomyjug1].setIcon(null); //tab.veclabel[tab.tam-1].setIcon(null);
-                tablero.posrandomxjug1 = (int)tablero.tamano/2;//tab.posjugx=0;
+                tablero.matriz[tablero.posrandomxjug1][tablero.posrandomyjug1] = 0;
+                tablero.matrizlabel[tablero.posrandomxjug1][tablero.posrandomyjug1].setIcon(null);
+                tablero.posrandomxjug1 = (int)tablero.tamano/2;
                 tablero.posrandomyjug1 = (int)tablero.tamano/2;
-                tablero.matriz[(int)(tablero.tamano/2)][(int)(tablero.tamano/2)] = 1; //tab.vec[0]=1;
-                tablero.repintar();//tab.repintar();
+                tablero.matriz[(int)(tablero.tamano/2)][(int)(tablero.tamano/2)] = 1;
+                tablero.vida1 = tablero.vida1 - 1;
+                tablero.repintar();
                 return;
             }  
                        
@@ -56,19 +60,19 @@ public class Movimiento extends Thread {
                             
                             case 1:
                                 
-                                direccion = "arriba";
+                                direccion = 3;
                                 derecha = false;
                                 break;
                                 
                             case 2:
                                 
-                                direccion = "abajo";
+                                direccion = 4;
                                 derecha = false;
                                 break;
                                 
                             case 3:
                                 
-                                direccion = "izquierda";
+                                direccion = 1;
                                 derecha = false;
                                 break;
                             
@@ -78,7 +82,7 @@ public class Movimiento extends Thread {
                     
                 }
                 
-                return;
+                mover(cantidad);
                 
             } else {
                 
@@ -101,8 +105,11 @@ public class Movimiento extends Thread {
             }
             
         }
-        
-        if(direccion.equalsIgnoreCase("izquierda")){//CODIGO HACIA IZQUIERDA
+            break;
+            
+            case 1:
+                
+                if(direccion==1){//CODIGO HACIA IZQUIERDA
             
             try {
             if(cantidad<=0){
@@ -116,6 +123,7 @@ public class Movimiento extends Thread {
                 tablero.posrandomxjug1 = (int)tablero.tamano/2;//
                 tablero.posrandomyjug1 = (int)tablero.tamano/2;
                 tablero.matriz[(int)(tablero.tamano/2)][(int)(tablero.tamano/2)] = 1;
+                tablero.vida1 = tablero.vida1 - 1;
                 tablero.repintar();
                 return;
             }
@@ -134,19 +142,19 @@ public class Movimiento extends Thread {
                             
                             case 1:
                                 
-                                direccion = "arriba";
+                                direccion = 3;
                                 izquierda = false;
                                 break;
                                 
                             case 2:
                                 
-                                direccion = "abajo";
+                                direccion = 4;
                                 izquierda = false;
                                 break;
                                 
                             case 3:
                                 
-                                direccion = "derecha";
+                                direccion = 2;
                                 izquierda = false;
                                 break;
                             
@@ -156,7 +164,7 @@ public class Movimiento extends Thread {
                     
                 }
                 
-                return;
+                mover(cantidad);
                 
             } else {
                 
@@ -178,8 +186,11 @@ public class Movimiento extends Thread {
             }
             
         }
-        
-        if(direccion.equalsIgnoreCase("arriba")){//CODIGO HACIA ARRIBA
+            break;
+            
+            case 3:
+                
+                if(direccion==3){//CODIGO HACIA ARRIBA
             
             try {
             if(cantidad<=0){
@@ -193,6 +204,7 @@ public class Movimiento extends Thread {
                 tablero.posrandomxjug1 = (int)tablero.tamano/2;
                 tablero.posrandomyjug1 = (int)tablero.tamano/2;
                 tablero.matriz[(int)(tablero.tamano/2)][(int)(tablero.tamano/2)] = 1;
+                tablero.vida1 = tablero.vida1 - 1;
                 tablero.repintar();
                 return;
             }
@@ -210,19 +222,19 @@ public class Movimiento extends Thread {
                             
                             case 1:
                                 
-                                direccion = "derecha";
+                                direccion = 2;
                                 arriba = false;
                                 break;
                                 
                             case 2:
                                 
-                                direccion = "izquierda";
+                                direccion = 1;
                                 arriba = false;
                                 break;
                                 
                             case 3:
                                 
-                                direccion = "abajo";
+                                direccion = 4;
                                 arriba = false;
                                 break;
                             
@@ -232,7 +244,7 @@ public class Movimiento extends Thread {
                     
                 }
                 
-                return;
+                mover(cantidad);
                 
             } else {
                 
@@ -255,8 +267,11 @@ public class Movimiento extends Thread {
             }
             
         }
-        
-        if(direccion.equalsIgnoreCase("abajo")){//CODIGO HACIA ABAJO
+            break;
+            
+            case 4:
+                
+                if(direccion==4){//CODIGO HACIA ABAJO
             
             try {
             if(cantidad<=0){
@@ -270,6 +285,7 @@ public class Movimiento extends Thread {
                 tablero.posrandomxjug1 = (int)tablero.tamano/2;
                 tablero.posrandomyjug1 = (int)tablero.tamano/2;
                 tablero.matriz[(int)(tablero.tamano/2)][(int)(tablero.tamano/2)] = 1;
+                tablero.vida1 = tablero.vida1 - 1;
                 tablero.repintar();
                 return;
             }
@@ -287,19 +303,19 @@ public class Movimiento extends Thread {
                             
                             case 1:
                                 
-                                direccion = "derecha";
+                                direccion = 2;
                                 abajo = false;
                                 break;
                                 
                             case 2:
                                 
-                                direccion = "izquierda";
+                                direccion = 1;
                                 abajo = false;
                                 break;
                                 
                             case 3:
                                 
-                                direccion = "arriba";
+                                direccion = 3;
                                 abajo = false;
                                 break;
                             
@@ -308,7 +324,7 @@ public class Movimiento extends Thread {
                     }
                     
                 }
-                return;
+                mover(cantidad);
                 
             } else {
                 
@@ -330,6 +346,10 @@ public class Movimiento extends Thread {
             }
             
         }
+                break;
+            
+        }// LLAVE CIERRE DEL SWITCH
+        
         
     }
     
@@ -382,11 +402,13 @@ public class Movimiento extends Thread {
     }
     
     public void run(){
+            
         mover(cantidad);
+        
     }
     
     private int cantidad = 0;
     private Tablero tablero;
-    private String direccion;
+    private int direccion;
     
 }

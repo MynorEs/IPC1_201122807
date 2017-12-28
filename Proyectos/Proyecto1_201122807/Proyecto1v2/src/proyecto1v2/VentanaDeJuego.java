@@ -44,7 +44,49 @@ public class VentanaDeJuego extends javax.swing.JFrame {
         lblturno2jug2 = new javax.swing.JLabel();
         lblturno3jug2 = new javax.swing.JLabel();
         fondovidas1 = new javax.swing.JPanel();
+        lblv1j1 = new javax.swing.JLabel();
+        lblv2j1 = new javax.swing.JLabel();
+        lblv3j1 = new javax.swing.JLabel();
+        lblv4j1 = new javax.swing.JLabel();
+        lblv5j1 = new javax.swing.JLabel();
+        lblv6j1 = new javax.swing.JLabel();
+        lblv7j1 = new javax.swing.JLabel();
+        lblv8j1 = new javax.swing.JLabel();
+        lblv9j1 = new javax.swing.JLabel();
+        lblv10j1 = new javax.swing.JLabel();
+        lblv11j1 = new javax.swing.JLabel();
+        lblv12j1 = new javax.swing.JLabel();
+        lblv13j1 = new javax.swing.JLabel();
+        lblv14j1 = new javax.swing.JLabel();
+        lblv15j1 = new javax.swing.JLabel();
+        lblv16j1 = new javax.swing.JLabel();
+        lblv17j1 = new javax.swing.JLabel();
+        lblv18j1 = new javax.swing.JLabel();
+        lblv19j1 = new javax.swing.JLabel();
+        lblv20j1 = new javax.swing.JLabel();
+        lblv10j3 = new javax.swing.JLabel();
         fondovidas2 = new javax.swing.JPanel();
+        lblv1j2 = new javax.swing.JLabel();
+        lblv18j2 = new javax.swing.JLabel();
+        lblv19j2 = new javax.swing.JLabel();
+        lblv5j2 = new javax.swing.JLabel();
+        lblv4j2 = new javax.swing.JLabel();
+        lblv20j2 = new javax.swing.JLabel();
+        lblv3j2 = new javax.swing.JLabel();
+        lblv6j2 = new javax.swing.JLabel();
+        lblv15j2 = new javax.swing.JLabel();
+        lblv2j2 = new javax.swing.JLabel();
+        lblv17j2 = new javax.swing.JLabel();
+        lblv10j4 = new javax.swing.JLabel();
+        lblv14j2 = new javax.swing.JLabel();
+        lblv12j2 = new javax.swing.JLabel();
+        lblv10j2 = new javax.swing.JLabel();
+        lblv11j2 = new javax.swing.JLabel();
+        lblv9j2 = new javax.swing.JLabel();
+        lblv16j2 = new javax.swing.JLabel();
+        lblv7j2 = new javax.swing.JLabel();
+        lblv8j2 = new javax.swing.JLabel();
+        lblv13j2 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         lbldado = new javax.swing.JLabel();
         btntirar = new javax.swing.JButton();
@@ -53,6 +95,7 @@ public class VentanaDeJuego extends javax.swing.JFrame {
         btnabajo = new javax.swing.JButton();
         btnderecha = new javax.swing.JButton();
         btnizquierda = new javax.swing.JButton();
+        atacar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Batallando Medievalmente");
@@ -109,22 +152,180 @@ public class VentanaDeJuego extends javax.swing.JFrame {
         fondovidas1.setLayout(fondovidas1Layout);
         fondovidas1Layout.setHorizontalGroup(
             fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 197, Short.MAX_VALUE)
+            .addGroup(fondovidas1Layout.createSequentialGroup()
+                .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(fondovidas1Layout.createSequentialGroup()
+                            .addComponent(lblv11j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv12j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv13j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv14j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv15j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(fondovidas1Layout.createSequentialGroup()
+                            .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(lblv16j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblv10j3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv17j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv18j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv19j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv20j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(fondovidas1Layout.createSequentialGroup()
+                            .addComponent(lblv1j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv2j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv3j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv4j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv5j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(fondovidas1Layout.createSequentialGroup()
+                            .addComponent(lblv6j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv7j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv8j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv9j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv10j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(0, 23, Short.MAX_VALUE))
         );
         fondovidas1Layout.setVerticalGroup(
             fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 145, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fondovidas1Layout.createSequentialGroup()
+                .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblv1j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv2j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv3j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv4j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv5j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblv6j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv7j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv8j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv9j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv10j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblv11j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv12j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv13j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv14j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv15j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(fondovidas1Layout.createSequentialGroup()
+                        .addComponent(lblv16j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+                        .addComponent(lblv10j3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(fondovidas1Layout.createSequentialGroup()
+                        .addGroup(fondovidas1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblv17j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblv18j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblv19j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblv20j1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
 
         javax.swing.GroupLayout fondovidas2Layout = new javax.swing.GroupLayout(fondovidas2);
         fondovidas2.setLayout(fondovidas2Layout);
         fondovidas2Layout.setHorizontalGroup(
             fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 197, Short.MAX_VALUE)
+            .addGroup(fondovidas2Layout.createSequentialGroup()
+                .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(fondovidas2Layout.createSequentialGroup()
+                            .addComponent(lblv11j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv12j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv13j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv14j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv15j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(fondovidas2Layout.createSequentialGroup()
+                            .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(lblv16j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblv10j4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv17j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv18j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv19j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv20j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(fondovidas2Layout.createSequentialGroup()
+                            .addComponent(lblv1j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv2j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv3j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv4j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv5j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(fondovidas2Layout.createSequentialGroup()
+                            .addComponent(lblv6j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv7j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv8j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv9j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblv10j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(0, 33, Short.MAX_VALUE))
         );
         fondovidas2Layout.setVerticalGroup(
             fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 156, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fondovidas2Layout.createSequentialGroup()
+                .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblv1j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv2j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv3j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv4j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv5j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblv6j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv7j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv8j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv9j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv10j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblv11j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv12j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv13j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv14j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblv15j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(fondovidas2Layout.createSequentialGroup()
+                        .addComponent(lblv16j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lblv10j4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(fondovidas2Layout.createSequentialGroup()
+                        .addGroup(fondovidas2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblv17j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblv18j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblv19j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblv20j2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
 
         lbldado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dado.gif"))); // NOI18N
@@ -187,9 +388,16 @@ public class VentanaDeJuego extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnderecha, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnizquierda, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnabajo, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
+
+        atacar.setText("Atacar");
+        atacar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                atacarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -219,6 +427,7 @@ public class VentanaDeJuego extends javax.swing.JFrame {
                             .addComponent(lblturno3jug2, javax.swing.GroupLayout.Alignment.TRAILING)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(atacar)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
@@ -250,7 +459,7 @@ public class VentanaDeJuego extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(cuadricula, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(27, 27, 27))
+                        .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(lbletiquetanombre1)
@@ -258,16 +467,17 @@ public class VentanaDeJuego extends javax.swing.JFrame {
                             .addComponent(lbletiquetapersonajes1))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(fondovidas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
                                 .addGap(41, 41, 41)
                                 .addComponent(lblturno1jug1)
                                 .addGap(18, 18, 18)
                                 .addComponent(lblturno2jug1)
                                 .addGap(18, 18, 18)
-                                .addComponent(lblturno3jug1)))
-                        .addGap(18, 18, 18)
+                                .addComponent(lblturno3jug1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(fondovidas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -283,20 +493,15 @@ public class VentanaDeJuego extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(lblturno3jug2))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(fondovidas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(18, 18, 18)
+                        .addGap(22, 22, 22)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(btntirar)
-                                        .addGap(0, 0, Short.MAX_VALUE)))
-                                .addGap(11, 11, 11))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(lbldado)
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
+                            .addComponent(btntirar)
+                            .addComponent(lbldado)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(atacar))))
         );
 
         pack();
@@ -305,7 +510,7 @@ public class VentanaDeJuego extends javax.swing.JFrame {
     private void btnderechaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnderechaActionPerformed
         // TODO add your handling code here:
         
-        Movimiento mov = new Movimiento(numerodedado, tablero, "derecha");
+        Movimiento mov = new Movimiento(numerodedado, tablero, 2);
         mov.start();
         lbldado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dado.gif")));
         
@@ -382,7 +587,7 @@ public class VentanaDeJuego extends javax.swing.JFrame {
     private void btnizquierdaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnizquierdaActionPerformed
         // TODO add your handling code here:
         
-        Movimiento mov = new Movimiento(numerodedado, tablero, "izquierda");
+        Movimiento mov = new Movimiento(numerodedado, tablero, 1);
         mov.start();
         lbldado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dado.gif")));
         
@@ -391,7 +596,7 @@ public class VentanaDeJuego extends javax.swing.JFrame {
     private void btnabajoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnabajoActionPerformed
         // TODO add your handling code here:
         
-        Movimiento mov = new Movimiento(numerodedado, tablero, "abajo");
+        Movimiento mov = new Movimiento(numerodedado, tablero, 4);
         mov.start();
         lbldado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dado.gif")));
         
@@ -400,11 +605,254 @@ public class VentanaDeJuego extends javax.swing.JFrame {
     private void btnarribaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnarribaActionPerformed
         // TODO add your handling code here:
         
-        Movimiento mov = new Movimiento(numerodedado, tablero, "arriba");
+        Movimiento mov = new Movimiento(numerodedado, tablero, 3);
         mov.start();
         lbldado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dado.gif")));
         
     }//GEN-LAST:event_btnarribaActionPerformed
+
+    private void atacarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_atacarActionPerformed
+        // TODO add your handling code here:
+        
+        ImageIcon vida1temp = new ImageIcon(getClass().getResource("/imagenes/vervida.jpg"));
+        Image v1temp = vida1temp.getImage();
+        Image v1 = v1temp.getScaledInstance(30, 30, Image.SCALE_SMOOTH);
+        iconovida1 = new ImageIcon(v1);
+        
+        if((tablero.matriz[tablero.posrandomxjug1+1][tablero.posrandomyjug1]==2)||(tablero.matriz[tablero.posrandomxjug1-1][tablero.posrandomyjug1]==2)
+                ||(tablero.matriz[tablero.posrandomxjug1][tablero.posrandomyjug1-1]==2)||(tablero.matriz[tablero.posrandomxjug1][tablero.posrandomyjug1+1])==2){
+            
+            tablero.bajarVida2();
+            
+        }
+        
+        switch(tablero.vida1){
+            
+            case 1:
+                
+                lblv1j1.setIcon(iconovida1);
+                break;
+            
+            case 2:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                break;
+            
+            case 3:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                break;
+                
+            case 4:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                break;
+                
+            case 5:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                break;
+                
+            case 6:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                break;
+                
+            case 7:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                break;
+                
+            case 8:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                break;
+                
+            case 9:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                lblv9j1.setIcon(iconovida1);
+                break;
+                
+            case 10:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                lblv9j1.setIcon(iconovida1);
+                lblv10j1.setIcon(iconovida1);
+                break;
+                
+            case 11:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                lblv9j1.setIcon(iconovida1);
+                lblv10j1.setIcon(iconovida1);
+                lblv11j1.setIcon(iconovida1);
+                break;
+        }
+        
+        switch(tablero.dameVida2()){
+            
+            case 1:	
+                
+                lblv1j2.setIcon(iconovida1);
+                break;
+            
+            case 2:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                break;
+            
+            case 3:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                break;
+                
+            case 4:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                break;
+                
+            case 5:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                break;
+                
+            case 6:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                break;
+                
+            case 7:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                break;
+                
+            case 8:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                break;
+                
+            case 9:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                lblv9j2.setIcon(iconovida1);
+                break;
+                
+            case 10:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                lblv9j2.setIcon(iconovida1);
+                lblv10j2.setIcon(iconovida1);
+                break;
+                
+            case 11:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                lblv9j2.setIcon(iconovida1);
+                lblv10j2.setIcon(iconovida1);
+                lblv11j2.setIcon(iconovida1);
+                break;
+        }
+        
+    }//GEN-LAST:event_atacarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -542,6 +990,231 @@ public class VentanaDeJuego extends javax.swing.JFrame {
         cuadricula.removeAll();
         cuadricula.repaint();
         tablero = new Tablero(tamanocuadricula, cuadricula);
+        switch(tablero.vida1){
+            
+            case 1:
+                
+                lblv1j1.setIcon(iconovida1);
+                break;
+            
+            case 2:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                break;
+            
+            case 3:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                break;
+                
+            case 4:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                break;
+                
+            case 5:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                break;
+                
+            case 6:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                break;
+                
+            case 7:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                break;
+                
+            case 8:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                break;
+                
+            case 9:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                lblv9j1.setIcon(iconovida1);
+                break;
+                
+            case 10:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                lblv9j1.setIcon(iconovida1);
+                lblv10j1.setIcon(iconovida1);
+                break;
+                
+            case 11:
+                
+                lblv1j1.setIcon(iconovida1);
+                lblv2j1.setIcon(iconovida1);
+                lblv3j1.setIcon(iconovida1);
+                lblv4j1.setIcon(iconovida1);
+                lblv5j1.setIcon(iconovida1);
+                lblv6j1.setIcon(iconovida1);
+                lblv7j1.setIcon(iconovida1);
+                lblv8j1.setIcon(iconovida1);
+                lblv9j1.setIcon(iconovida1);
+                lblv10j1.setIcon(iconovida1);
+                lblv11j1.setIcon(iconovida1);
+                break;
+        }
+        
+        switch(tablero.dameVida2()){
+            
+            case 1:	
+                
+                lblv1j2.setIcon(iconovida1);
+                break;
+            
+            case 2:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                break;
+            
+            case 3:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                break;
+                
+            case 4:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                break;
+                
+            case 5:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                break;
+                
+            case 6:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                break;
+                
+            case 7:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                break;
+                
+            case 8:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                break;
+                
+            case 9:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                lblv9j2.setIcon(iconovida1);
+                break;
+                
+            case 10:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                lblv9j2.setIcon(iconovida1);
+                lblv10j2.setIcon(iconovida1);
+                break;
+                
+            case 11:
+                
+                lblv1j2.setIcon(iconovida1);
+                lblv2j2.setIcon(iconovida1);
+                lblv3j2.setIcon(iconovida1);
+                lblv4j2.setIcon(iconovida1);
+                lblv5j2.setIcon(iconovida1);
+                lblv6j2.setIcon(iconovida1);
+                lblv7j2.setIcon(iconovida1);
+                lblv8j2.setIcon(iconovida1);
+                lblv9j2.setIcon(iconovida1);
+                lblv10j2.setIcon(iconovida1);
+                lblv11j2.setIcon(iconovida1);
+                break;
+        }
         
     }
     
@@ -567,8 +1240,12 @@ public class VentanaDeJuego extends javax.swing.JFrame {
     
     private int numerodedado;
     private ImageIcon dado;
+    private ImageIcon iconovida1;
+    private ImageIcon iconovida2;
+    private int nuevavida;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton atacar;
     private javax.swing.JButton btnabajo;
     private javax.swing.JButton btnarriba;
     private javax.swing.JButton btnderecha;
@@ -592,5 +1269,47 @@ public class VentanaDeJuego extends javax.swing.JFrame {
     private javax.swing.JLabel lblturno2jug2;
     private javax.swing.JLabel lblturno3jug1;
     private javax.swing.JLabel lblturno3jug2;
+    private javax.swing.JLabel lblv10j1;
+    private javax.swing.JLabel lblv10j2;
+    private javax.swing.JLabel lblv10j3;
+    private javax.swing.JLabel lblv10j4;
+    private javax.swing.JLabel lblv11j1;
+    private javax.swing.JLabel lblv11j2;
+    private javax.swing.JLabel lblv12j1;
+    private javax.swing.JLabel lblv12j2;
+    private javax.swing.JLabel lblv13j1;
+    private javax.swing.JLabel lblv13j2;
+    private javax.swing.JLabel lblv14j1;
+    private javax.swing.JLabel lblv14j2;
+    private javax.swing.JLabel lblv15j1;
+    private javax.swing.JLabel lblv15j2;
+    private javax.swing.JLabel lblv16j1;
+    private javax.swing.JLabel lblv16j2;
+    private javax.swing.JLabel lblv17j1;
+    private javax.swing.JLabel lblv17j2;
+    private javax.swing.JLabel lblv18j1;
+    private javax.swing.JLabel lblv18j2;
+    private javax.swing.JLabel lblv19j1;
+    private javax.swing.JLabel lblv19j2;
+    private javax.swing.JLabel lblv1j1;
+    private javax.swing.JLabel lblv1j2;
+    private javax.swing.JLabel lblv20j1;
+    private javax.swing.JLabel lblv20j2;
+    private javax.swing.JLabel lblv2j1;
+    private javax.swing.JLabel lblv2j2;
+    private javax.swing.JLabel lblv3j1;
+    private javax.swing.JLabel lblv3j2;
+    private javax.swing.JLabel lblv4j1;
+    private javax.swing.JLabel lblv4j2;
+    private javax.swing.JLabel lblv5j1;
+    private javax.swing.JLabel lblv5j2;
+    private javax.swing.JLabel lblv6j1;
+    private javax.swing.JLabel lblv6j2;
+    private javax.swing.JLabel lblv7j1;
+    private javax.swing.JLabel lblv7j2;
+    private javax.swing.JLabel lblv8j1;
+    private javax.swing.JLabel lblv8j2;
+    private javax.swing.JLabel lblv9j1;
+    private javax.swing.JLabel lblv9j2;
     // End of variables declaration//GEN-END:variables
 }
