@@ -1,0 +1,16 @@
+digraph G {
+D[shape=box3d, fillcolor=red label="Desabordaje"]
+node [shape=box, color="#008000"];
+edge [color="#1E90F"];
+21757269 [label="Documentos: 5\n Maletas1"]
+25356369 [label="Documentos: 2\n Maletas2"]
+15966722 [label="Documentos: 5\n Maletas3"]
+1210690 [label="Documentos: 4\n Maletas3"]
+10851584 [label="Documentos: 5\n Maletas1"]
+4796325 [label="Documentos: 5\n Maletas3"]
+21757269 -> 25356369 ;
+25356369 -> 15966722 ;
+15966722 -> 1210690 ;
+1210690 -> 10851584 ;
+10851584 -> 4796325 ;
+}
